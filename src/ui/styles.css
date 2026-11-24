@@ -217,3 +217,9 @@ table.weeks { width: 100%; border-collapse: collapse; font-size: .88rem; min-wid
 .pod span:nth-child(2) { font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .pod-n { font-family: var(--font-stat); font-size: 1.3rem; font-weight: 700; color: var(--muted); }
 .pod b { font-weight: 600; }
+
+/* Course header */
+.brand { display: flex; align-items: center; gap: 12px; padding: 18px 0 16px; border-bottom: 1px solid var(--line-soft); }
+.brand-mark { font-family: var(--font-stat); font-weight: 700; font-size: 1.05rem; letter-spacing: .08em; color: #06233f; background: var(--torero); border-radius: 6px; padding: 3px 8px 2px; line-height: 1.2; }
+.brand-name { font-weight: 600; font-size: 1.05rem; letter-spacing: .01em; }
+.brand + .top { padding-top: 22px; }

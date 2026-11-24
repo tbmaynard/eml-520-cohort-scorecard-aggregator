@@ -54,7 +54,7 @@ export function mountDashboard(root: HTMLElement, opts: DashboardOptions) {
 
   function render() {
     if (!seasons.length) {
-      root.innerHTML = `<div class="card empty-state"><h2>No results yet</h2><p>Results will appear here after the first challenge.</p></div>`;
+      root.innerHTML = `<div class="brand"><span class="brand-mark">USD</span><span class="brand-name">EML 520 Cohort Challenge</span></div><div class="card empty-state"><h2>No results yet</h2><p>Results will appear here after the first challenge.</p></div>`;
       return;
     }
     if (!validView(view)) view = latestView();
@@ -77,9 +77,11 @@ export function mountDashboard(root: HTMLElement, opts: DashboardOptions) {
       ? `<label class="section-pick" for="sectionSel">Section <select id="sectionSel">${seasons.map((x) => `<option value="${esc(x.sectionId)}"${x.sectionId === sectionId ? ' selected' : ''}>${esc(x.sectionName)}</option>`).join('')}</select></label>`
       : '';
 
+    const showSection = seasons.length > 1 || s.sectionName !== 'Section 1';
     root.innerHTML = `
+      <div class="brand"><span class="brand-mark">USD</span><span class="brand-name">EML 520 Cohort Challenge</span></div>
       <header class="top">
-        <div><div class="eyebrow">EML 520 · Cohort Challenges${seasons.length > 1 || s.sectionName !== 'Section 1' ? ` · ${esc(s.sectionName)}` : ''}</div><h1>${esc(heading)}</h1></div>
+        <div>${showSection ? `<div class="eyebrow">${esc(s.sectionName)}</div>` : ''}<h1>${esc(heading)}</h1></div>
         ${picker}
       </header>
       ${opts.banner ? `<div class="banner">${esc(opts.banner)}</div>` : ''}
