@@ -20,6 +20,7 @@
   --bronze: #d9905a;
   --sage: #7bb45b;
   --poppy: #f58238;
+  --red: #f0605a;
   --ink: #06233f;
   --w1: #1a5f9e; --w2: #2a8fdb; --w3: #5fb3ec; --w4: #94d0f3; --w5: #c8e8fa;
   --font-ui: "Sofia Sans", "Segoe UI", system-ui, sans-serif;
@@ -271,6 +272,15 @@ table.weeks { width: 100%; border-collapse: collapse; font-size: .9rem; min-widt
 .cmt p.none { color: var(--faint); font-style: italic; }
 .cmt .scores { font-size: .74rem; color: var(--faint); grid-column: 1 / -1; display: flex; gap: 10px; flex-wrap: wrap; }
 .cmt .tot { font-family: var(--font-stat); font-style: italic; font-size: 1.7rem; font-weight: 800; text-align: right; line-height: 1; }
+.cmt .tot.good { color: var(--sage); }
+.cmt .tot.mid { color: var(--yarrow); }
+.cmt .tot.low { color: var(--red); }
+.band-key { display: flex; flex-wrap: wrap; gap: 6px 16px; margin: -2px 0 10px; font-size: .74rem; color: var(--faint); }
+.band-key span { display: flex; align-items: center; gap: 6px; }
+.band-key span::before { content: ""; width: 10px; height: 10px; border-radius: 2px; }
+.band-key .good::before { background: var(--sage); }
+.band-key .mid::before { background: var(--yarrow); }
+.band-key .low::before { background: var(--red); }
 .cmt .tot small { font-family: var(--font-ui); font-style: normal; color: var(--faint); font-size: .7rem; font-weight: 400; }
 .sec-title { font-size: .72rem; letter-spacing: .16em; text-transform: uppercase; font-weight: 700; color: var(--muted); margin: 24px 0 10px; display: flex; justify-content: space-between; align-items: center; gap: 8px; flex-wrap: wrap; }
 

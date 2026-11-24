@@ -318,13 +318,21 @@ function sheetHtml(s: SeasonFile, wk: Week, stats: CohortWeekStats[], o: CohortW
     <div class="sec-title"><span>${o.reviewCount} reviews · ${written} with comments</span><span class="sort" role="group" aria-label="Sort reviews">
       ${([['high', 'Highest first'], ['low', 'Lowest first']] as const).map(([k, l]) => `<button type="button" data-sort="${k}" aria-pressed="${sort === k}">${l}</button>`).join('')}
     </span></div>
+    <div class="band-key"><span class="good">Above ${max * 0.75}</span><span class="mid">${max * 0.5} to ${max * 0.75}</span><span class="low">Below ${max * 0.5}</span></div>
     <div class="comments">${reviews.map((r) => {
       const rated = r.scores.filter((v) => v !== null).length;
       return `<div class="card cmt"><p class="${r.feedback ? '' : 'none'}">${r.feedback ? esc(r.feedback) : 'No written feedback'}</p>
-        <div class="tot">${reviewTotal(r)}<small> / ${max}</small></div>
+        <div class="tot ${scoreBand(reviewTotal(r), max)}">${reviewTotal(r)}<small> / ${max}</small></div>
         <div class="scores">${s.criteria.map((c, k) => `<span>${esc(c)} ${r.scores[k] === null || r.scores[k] === undefined ? 'n/r' : r.scores[k]}</span>`).join('')}${rated < s.criteria.length ? `<span>${rated} of ${s.criteria.length} rated</span>` : ''}</div></div>`;
     }).join('')}</div>
   </div></div>`;
+}
+
+/** Color band for one review's total: above 75% green, 50% to 75% amber, below 50% red (15 and 10 out of 20). */
+function scoreBand(total: number, max: number): 'good' | 'mid' | 'low' {
+  if (total > max * 0.75) return 'good';
+  if (total >= max * 0.5) return 'mid';
+  return 'low';
 }
 
 function dotPlot(totals: number[], max: number): string {
