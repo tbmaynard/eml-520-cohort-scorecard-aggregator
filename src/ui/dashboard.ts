@@ -19,7 +19,7 @@ export interface DashboardOptions {
   animate?: boolean;
 }
 
-type SortMode = 'mixed' | 'high' | 'low';
+type SortMode = 'high' | 'low';
 
 function brandHtml(s?: SeasonFile): string {
   let status = '';
@@ -36,7 +36,7 @@ export function mountDashboard(root: HTMLElement, opts: DashboardOptions) {
   let seasons = opts.seasons;
   let sectionId = opts.initialSection && seasons.some((s) => s.sectionId === opts.initialSection) ? opts.initialSection : seasons[0]?.sectionId;
   let view = opts.initialView ?? '';
-  let sort: SortMode = 'mixed';
+  let sort: SortMode = 'high';
   let openCohort: string | null = null;
   let returnFocus: HTMLElement | null = null;
   root.classList.toggle('no-anim', opts.animate === false);
@@ -112,7 +112,7 @@ export function mountDashboard(root: HTMLElement, opts: DashboardOptions) {
     const v = t.closest<HTMLElement>('[data-view]');
     if (v) { view = v.dataset.view!; render(); return; }
     const o = t.closest<HTMLElement>('[data-open]');
-    if (o) { returnFocus = o; sort = 'mixed'; openSheet(o.dataset.open!); }
+    if (o) { returnFocus = o; sort = 'high'; openSheet(o.dataset.open!); }
   });
   root.addEventListener('change', (e) => {
     const t = e.target as HTMLElement;
@@ -303,7 +303,7 @@ function sheetHtml(s: SeasonFile, wk: Week, stats: CohortWeekStats[], o: CohortW
 
   return `<div class="sheet-back"><div class="sheet" role="dialog" aria-modal="true" aria-labelledby="sheetTitle">
     <div class="sheet-top"><div><div class="eyebrow">Week ${wk.week}${wk.challenge ? ` · ${esc(wk.challenge)}` : ''}</div><h2 id="sheetTitle">${esc(o.cohort)}</h2>
-      <p>All reviews are anonymous. "As submitted" order is shuffled and means nothing.</p></div>
+      <p>All reviews are anonymous.</p></div>
       <button class="x" type="button" aria-label="Close">×</button></div>
     <div class="kpis">
       <div class="card kpi"><small>Place</small><div class="stat"${o.win ? ' style="color:var(--yarrow)"' : ''}>${o.rank}<span> of ${stats.length}</span></div></div>
@@ -316,7 +316,7 @@ function sheetHtml(s: SeasonFile, wk: Week, stats: CohortWeekStats[], o: CohortW
     <div class="sec-title">Spread of review totals</div>
     <div class="card dotplot">${dotPlot(o.totals, max)}</div>
     <div class="sec-title"><span>${o.reviewCount} reviews · ${written} with comments</span><span class="sort" role="group" aria-label="Sort reviews">
-      ${([['mixed', 'As submitted'], ['high', 'Highest first'], ['low', 'Lowest first']] as const).map(([k, l]) => `<button type="button" data-sort="${k}" aria-pressed="${sort === k}">${l}</button>`).join('')}
+      ${([['high', 'Highest first'], ['low', 'Lowest first']] as const).map(([k, l]) => `<button type="button" data-sort="${k}" aria-pressed="${sort === k}">${l}</button>`).join('')}
     </span></div>
     <div class="comments">${reviews.map((r) => {
       const rated = r.scores.filter((v) => v !== null).length;
