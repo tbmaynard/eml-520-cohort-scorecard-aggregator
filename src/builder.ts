@@ -187,7 +187,7 @@ function renderSave() {
     ${state.savedFor ? `<div class="banner info">Saved ${esc(state.savedFor)}. Keep it in a folder for this class as your backup.</div>` : ''}
     <ol class="how">
       <li>Open the <a href="${REPO}/upload/main/data" target="_blank" rel="noopener">upload page for the data folder</a> on GitHub.</li>
-      <li>Drag <b>${name}</b> onto it. A file with the same name is replaced.</li>
+      <li>Drag <b>${name}</b> onto it. A file with the same name is replaced. If your browser saved it as <b>${name.replace('.json', ' (1).json')}</b>, rename it to <b>${name}</b> first.</li>
       <li>Click <b>Commit changes</b>. The dashboard updates in a minute or two.</li>
     </ol>
     <p class="faint small">Only upload the .json file. The repo refuses .csv files, and the site never publishes them.</p>`;

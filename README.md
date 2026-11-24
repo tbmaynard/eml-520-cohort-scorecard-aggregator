@@ -14,7 +14,7 @@ No database, accounts or server. Everything runs in the browser.
 2. Open the **builder**. It loads the section's current season file from the live site.
 3. Drop all the CSVs onto it. Check the warnings, set the challenge title, and hide any comment you don't want shown.
 4. Click **Save section-1.json**. Keep that file in a folder for the class: it is your backup.
-5. Open the [upload page for the data folder](https://github.com/tbmaynard/eml-520-cohort-scorecard-aggregator/upload/main/data), drag the file in and commit. A file with the same name is replaced. The dashboard updates in a minute or two.
+5. Open the [upload page for the data folder](https://github.com/tbmaynard/eml-520-cohort-scorecard-aggregator/upload/main/data), drag the file in and commit. A file with the same name is replaced. The name must be exactly `section-1.json`: if your browser saved it as `section-1 (1).json`, rename it first. The dashboard updates in a minute or two.
 
 To redo a week, drop the files again with the same week number; saving replaces that week. To remove a week, use **Remove** in step 1 of the builder, then save and upload.
 
