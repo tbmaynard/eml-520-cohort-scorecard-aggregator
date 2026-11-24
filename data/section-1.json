@@ -1,0 +1,1432 @@
+{
+ "format": "eml520-cohort-scorecard",
+ "version": 1,
+ "sectionId": "1",
+ "sectionName": "Section 1",
+ "criteria": [
+  "Execution",
+  "Strength",
+  "Credibility",
+  "Ownership"
+ ],
+ "maxPerCriterion": 5,
+ "totalWeeks": 5,
+ "cohorts": [
+  "Cohort 1",
+  "Cohort 2",
+  "Cohort 3",
+  "Cohort 4",
+  "Cohort 5",
+  "Cohort 6"
+ ],
+ "ended": false,
+ "weeks": [
+  {
+   "week": 1,
+   "challenge": "The Coffee Shop",
+   "published": "2026-11-24",
+   "reviews": [
+    {
+     "cohort": "Cohort 6",
+     "scores": [
+      2,
+      2,
+      3,
+      3
+     ],
+     "feedback": "Ran out of time"
+    },
+    {
+     "cohort": "Cohort 1",
+     "scores": [
+      3,
+      4,
+      4,
+      4
+     ],
+     "feedback": "The ask wasn't clear"
+    },
+    {
+     "cohort": "Cohort 5",
+     "scores": [
+      3,
+      3,
+      2,
+      3
+     ],
+     "feedback": "pretty, pretty good"
+    },
+    {
+     "cohort": "Cohort 6",
+     "scores": [
+      3,
+      3,
+      3,
+      3
+     ],
+     "feedback": ""
+    },
+    {
+     "cohort": "Cohort 2",
+     "scores": [
+      4,
+      3,
+      3,
+      4
+     ],
+     "feedback": ""
+    },
+    {
+     "cohort": "Cohort 3",
+     "scores": [
+      3,
+      3,
+      3,
+      2
+     ],
+     "feedback": "Solid, credible numbers"
+    },
+    {
+     "cohort": "Cohort 4",
+     "scores": [
+      3,
+      4,
+      5,
+      4
+     ],
+     "feedback": ""
+    },
+    {
+     "cohort": "Cohort 6",
+     "scores": [
+      4,
+      3,
+      2,
+      2
+     ],
+     "feedback": "Great pitch, very clear"
+    },
+    {
+     "cohort": "Cohort 4",
+     "scores": [
+      3,
+      3,
+      4,
+      4
+     ],
+     "feedback": "Strong team energy"
+    },
+    {
+     "cohort": "Cohort 4",
+     "scores": [
+      4,
+      4,
+      3,
+      4
+     ],
+     "feedback": "Pricing was confusing"
+    },
+    {
+     "cohort": "Cohort 6",
+     "scores": [
+      2,
+      2,
+      3,
+      3
+     ],
+     "feedback": "Pricing was confusing"
+    },
+    {
+     "cohort": "Cohort 3",
+     "scores": [
+      2,
+      3,
+      4,
+      3
+     ],
+     "feedback": "Great pitch, very clear"
+    },
+    {
+     "cohort": "Cohort 3",
+     "scores": [
+      2,
+      2,
+      2,
+      2
+     ],
+     "feedback": "Strong team energy"
+    },
+    {
+     "cohort": "Cohort 3",
+     "scores": [
+      3,
+      2,
+      4,
+      2
+     ],
+     "feedback": "Solid, credible numbers"
+    },
+    {
+     "cohort": "Cohort 5",
+     "scores": [
+      4,
+      3,
+      4,
+      3
+     ],
+     "feedback": "Strong team energy"
+    },
+    {
+     "cohort": "Cohort 2",
+     "scores": [
+      3,
+      3,
+      4,
+      4
+     ],
+     "feedback": "Solid, credible numbers"
+    },
+    {
+     "cohort": "Cohort 6",
+     "scores": [
+      4,
+      3,
+      3,
+      2
+     ],
+     "feedback": "pretty, pretty good"
+    },
+    {
+     "cohort": "Cohort 4",
+     "scores": [
+      3,
+      3,
+      4,
+      3
+     ],
+     "feedback": "Ran out of time"
+    },
+    {
+     "cohort": "Cohort 5",
+     "scores": [
+      3,
+      3,
+      null,
+      3
+     ],
+     "feedback": "Ran out of time"
+    },
+    {
+     "cohort": "Cohort 2",
+     "scores": [
+      4,
+      3,
+      3,
+      3
+     ],
+     "feedback": "Solid, credible numbers"
+    },
+    {
+     "cohort": "Cohort 2",
+     "scores": [
+      3,
+      3,
+      3,
+      3
+     ],
+     "feedback": "The ask wasn't clear"
+    },
+    {
+     "cohort": "Cohort 3",
+     "scores": [
+      3,
+      3,
+      2,
+      2
+     ],
+     "feedback": "Ran out of time"
+    },
+    {
+     "cohort": "Cohort 1",
+     "scores": [
+      4,
+      4,
+      4,
+      4
+     ],
+     "feedback": "pretty, pretty good"
+    },
+    {
+     "cohort": "Cohort 4",
+     "scores": [
+      3,
+      3,
+      4,
+      4
+     ],
+     "feedback": "Needed more data on the market"
+    },
+    {
+     "cohort": "Cohort 4",
+     "scores": [
+      5,
+      4,
+      4,
+      3
+     ],
+     "feedback": "Pricing was confusing"
+    },
+    {
+     "cohort": "Cohort 3",
+     "scores": [
+      3,
+      3,
+      2,
+      2
+     ],
+     "feedback": "pretty, pretty good"
+    },
+    {
+     "cohort": "Cohort 1",
+     "scores": [
+      4,
+      4,
+      3,
+      4
+     ],
+     "feedback": "Pricing was confusing"
+    },
+    {
+     "cohort": "Cohort 3",
+     "scores": [
+      3,
+      3,
+      2,
+      4
+     ],
+     "feedback": ""
+    },
+    {
+     "cohort": "Cohort 2",
+     "scores": [
+      2,
+      4,
+      4,
+      2
+     ],
+     "feedback": "Pricing was confusing"
+    },
+    {
+     "cohort": "Cohort 5",
+     "scores": [
+      2,
+      3,
+      2,
+      4
+     ],
+     "feedback": "Strong team energy"
+    },
+    {
+     "cohort": "Cohort 5",
+     "scores": [
+      4,
+      2,
+      3,
+      3
+     ],
+     "feedback": "pretty, pretty good"
+    },
+    {
+     "cohort": "Cohort 6",
+     "scores": [
+      3,
+      4,
+      3,
+      2
+     ],
+     "feedback": "Solid, credible numbers"
+    },
+    {
+     "cohort": "Cohort 1",
+     "scores": [
+      3,
+      3,
+      3,
+      3
+     ],
+     "feedback": "Great pitch, very clear"
+    },
+    {
+     "cohort": "Cohort 1",
+     "scores": [
+      4,
+      3,
+      4,
+      4
+     ],
+     "feedback": "pretty, pretty good"
+    },
+    {
+     "cohort": "Cohort 3",
+     "scores": [
+      3,
+      2,
+      4,
+      3
+     ],
+     "feedback": "The ask wasn't clear"
+    },
+    {
+     "cohort": "Cohort 3",
+     "scores": [
+      3,
+      3,
+      3,
+      3
+     ],
+     "feedback": "Pricing was confusing"
+    },
+    {
+     "cohort": "Cohort 5",
+     "scores": [
+      4,
+      2,
+      4,
+      3
+     ],
+     "feedback": "Solid, credible numbers"
+    },
+    {
+     "cohort": "Cohort 5",
+     "scores": [
+      2,
+      4,
+      4,
+      2
+     ],
+     "feedback": "Loved the demo"
+    },
+    {
+     "cohort": "Cohort 6",
+     "scores": [
+      3,
+      3,
+      3,
+      3
+     ],
+     "feedback": "Ran out of time"
+    },
+    {
+     "cohort": "Cohort 1",
+     "scores": [
+      3,
+      3,
+      3,
+      4
+     ],
+     "feedback": "Great pitch, very clear"
+    },
+    {
+     "cohort": "Cohort 5",
+     "scores": [
+      4,
+      3,
+      3,
+      3
+     ],
+     "feedback": ""
+    },
+    {
+     "cohort": "Cohort 1",
+     "scores": [
+      5,
+      3,
+      3,
+      3
+     ],
+     "feedback": "Pricing was confusing"
+    },
+    {
+     "cohort": "Cohort 5",
+     "scores": [
+      3,
+      4,
+      4,
+      4
+     ],
+     "feedback": "Ran out of time"
+    },
+    {
+     "cohort": "Cohort 5",
+     "scores": [
+      4,
+      3,
+      4,
+      4
+     ],
+     "feedback": "Ran out of time"
+    },
+    {
+     "cohort": "Cohort 6",
+     "scores": [
+      3,
+      3,
+      2,
+      3
+     ],
+     "feedback": "Ran out of time"
+    },
+    {
+     "cohort": "Cohort 5",
+     "scores": [
+      2,
+      3,
+      null,
+      4
+     ],
+     "feedback": "pretty, pretty good"
+    },
+    {
+     "cohort": "Cohort 2",
+     "scores": [
+      2,
+      4,
+      4,
+      3
+     ],
+     "feedback": "Loved the demo"
+    },
+    {
+     "cohort": "Cohort 6",
+     "scores": [
+      3,
+      4,
+      null,
+      3
+     ],
+     "feedback": "pretty, pretty good"
+    },
+    {
+     "cohort": "Cohort 3",
+     "scores": [
+      2,
+      4,
+      3,
+      3
+     ],
+     "feedback": ""
+    },
+    {
+     "cohort": "Cohort 4",
+     "scores": [
+      4,
+      3,
+      3,
+      5
+     ],
+     "feedback": ""
+    },
+    {
+     "cohort": "Cohort 1",
+     "scores": [
+      3,
+      4,
+      5,
+      3
+     ],
+     "feedback": "Solid, credible numbers"
+    },
+    {
+     "cohort": "Cohort 6",
+     "scores": [
+      2,
+      4,
+      4,
+      3
+     ],
+     "feedback": "Strong team energy"
+    },
+    {
+     "cohort": "Cohort 2",
+     "scores": [
+      4,
+      3,
+      3,
+      4
+     ],
+     "feedback": "Ran out of time"
+    },
+    {
+     "cohort": "Cohort 4",
+     "scores": [
+      4,
+      5,
+      5,
+      3
+     ],
+     "feedback": "Strong team energy"
+    },
+    {
+     "cohort": "Cohort 6",
+     "scores": [
+      3,
+      3,
+      3,
+      2
+     ],
+     "feedback": "Great pitch, very clear"
+    },
+    {
+     "cohort": "Cohort 2",
+     "scores": [
+      3,
+      2,
+      3,
+      3
+     ],
+     "feedback": "Ran out of time"
+    },
+    {
+     "cohort": "Cohort 1",
+     "scores": [
+      4,
+      3,
+      4,
+      3
+     ],
+     "feedback": "Needed more data on the market"
+    },
+    {
+     "cohort": "Cohort 3",
+     "scores": [
+      3,
+      2,
+      2,
+      2
+     ],
+     "feedback": "Ran out of time"
+    },
+    {
+     "cohort": "Cohort 4",
+     "scores": [
+      4,
+      5,
+      5,
+      3
+     ],
+     "feedback": "Needed more data on the market"
+    },
+    {
+     "cohort": "Cohort 4",
+     "scores": [
+      4,
+      3,
+      3,
+      5
+     ],
+     "feedback": "Great pitch, very clear"
+    },
+    {
+     "cohort": "Cohort 1",
+     "scores": [
+      4,
+      4,
+      4,
+      3
+     ],
+     "feedback": ""
+    },
+    {
+     "cohort": "Cohort 4",
+     "scores": [
+      5,
+      3,
+      4,
+      5
+     ],
+     "feedback": "Solid, credible numbers"
+    },
+    {
+     "cohort": "Cohort 5",
+     "scores": [
+      3,
+      3,
+      4,
+      2
+     ],
+     "feedback": "The ask wasn't clear"
+    },
+    {
+     "cohort": "Cohort 3",
+     "scores": [
+      4,
+      2,
+      2,
+      2
+     ],
+     "feedback": "The ask wasn't clear"
+    },
+    {
+     "cohort": "Cohort 2",
+     "scores": [
+      2,
+      2,
+      2,
+      3
+     ],
+     "feedback": "Needed more data on the market"
+    },
+    {
+     "cohort": "Cohort 2",
+     "scores": [
+      3,
+      3,
+      3,
+      3
+     ],
+     "feedback": "pretty, pretty good"
+    },
+    {
+     "cohort": "Cohort 4",
+     "scores": [
+      3,
+      5,
+      5,
+      4
+     ],
+     "feedback": "Solid, credible numbers"
+    },
+    {
+     "cohort": "Cohort 1",
+     "scores": [
+      4,
+      4,
+      3,
+      4
+     ],
+     "feedback": "Pricing was confusing"
+    },
+    {
+     "cohort": "Cohort 4",
+     "scores": [
+      4,
+      3,
+      4,
+      3
+     ],
+     "feedback": "Needed more data on the market"
+    },
+    {
+     "cohort": "Cohort 1",
+     "scores": [
+      3,
+      4,
+      4,
+      3
+     ],
+     "feedback": "Loved the demo"
+    },
+    {
+     "cohort": "Cohort 3",
+     "scores": [
+      3,
+      3,
+      2,
+      4
+     ],
+     "feedback": "Pricing was confusing"
+    },
+    {
+     "cohort": "Cohort 5",
+     "scores": [
+      2,
+      3,
+      4,
+      4
+     ],
+     "feedback": "Strong team energy"
+    },
+    {
+     "cohort": "Cohort 5",
+     "scores": [
+      4,
+      4,
+      4,
+      4
+     ],
+     "feedback": "Strong team energy"
+    },
+    {
+     "cohort": "Cohort 5",
+     "scores": [
+      4,
+      4,
+      3,
+      4
+     ],
+     "feedback": "Needed more data on the market"
+    },
+    {
+     "cohort": "Cohort 2",
+     "scores": [
+      4,
+      4,
+      4,
+      4
+     ],
+     "feedback": "Strong team energy"
+    },
+    {
+     "cohort": "Cohort 2",
+     "scores": [
+      3,
+      3,
+      3,
+      2
+     ],
+     "feedback": "Ran out of time"
+    },
+    {
+     "cohort": "Cohort 6",
+     "scores": [
+      4,
+      3,
+      3,
+      3
+     ],
+     "feedback": "pretty, pretty good"
+    },
+    {
+     "cohort": "Cohort 1",
+     "scores": [
+      3,
+      3,
+      4,
+      3
+     ],
+     "feedback": "Strong team energy"
+    },
+    {
+     "cohort": "Cohort 5",
+     "scores": [
+      4,
+      4,
+      3,
+      4
+     ],
+     "feedback": "Great pitch, very clear"
+    },
+    {
+     "cohort": "Cohort 6",
+     "scores": [
+      2,
+      3,
+      2,
+      2
+     ],
+     "feedback": "Strong team energy"
+    },
+    {
+     "cohort": "Cohort 1",
+     "scores": [
+      3,
+      3,
+      3,
+      4
+     ],
+     "feedback": "Loved the demo"
+    },
+    {
+     "cohort": "Cohort 6",
+     "scores": [
+      4,
+      4,
+      2,
+      3
+     ],
+     "feedback": "Loved the demo"
+    },
+    {
+     "cohort": "Cohort 2",
+     "scores": [
+      3,
+      3,
+      4,
+      4
+     ],
+     "feedback": "Great pitch, very clear"
+    },
+    {
+     "cohort": "Cohort 5",
+     "scores": [
+      4,
+      3,
+      null,
+      4
+     ],
+     "feedback": "Strong team energy"
+    },
+    {
+     "cohort": "Cohort 5",
+     "scores": [
+      3,
+      3,
+      3,
+      2
+     ],
+     "feedback": "Loved the demo"
+    },
+    {
+     "cohort": "Cohort 4",
+     "scores": [
+      4,
+      3,
+      4,
+      5
+     ],
+     "feedback": "Strong team energy"
+    },
+    {
+     "cohort": "Cohort 4",
+     "scores": [
+      5,
+      4,
+      3,
+      4
+     ],
+     "feedback": "Great pitch, very clear"
+    },
+    {
+     "cohort": "Cohort 6",
+     "scores": [
+      3,
+      2,
+      2,
+      2
+     ],
+     "feedback": "Solid, credible numbers"
+    },
+    {
+     "cohort": "Cohort 3",
+     "scores": [
+      3,
+      2,
+      3,
+      2
+     ],
+     "feedback": "Ran out of time"
+    },
+    {
+     "cohort": "Cohort 2",
+     "scores": [
+      2,
+      2,
+      3,
+      3
+     ],
+     "feedback": "Solid, credible numbers"
+    },
+    {
+     "cohort": "Cohort 1",
+     "scores": [
+      4,
+      4,
+      3,
+      3
+     ],
+     "feedback": "Needed more data on the market"
+    },
+    {
+     "cohort": "Cohort 3",
+     "scores": [
+      2,
+      3,
+      3,
+      3
+     ],
+     "feedback": "Great pitch, very clear"
+    },
+    {
+     "cohort": "Cohort 2",
+     "scores": [
+      4,
+      3,
+      3,
+      3
+     ],
+     "feedback": "Pricing was confusing"
+    },
+    {
+     "cohort": "Cohort 3",
+     "scores": [
+      2,
+      3,
+      3,
+      3
+     ],
+     "feedback": "Solid, credible numbers"
+    },
+    {
+     "cohort": "Cohort 3",
+     "scores": [
+      3,
+      2,
+      2,
+      2
+     ],
+     "feedback": "Pricing was confusing"
+    },
+    {
+     "cohort": "Cohort 5",
+     "scores": [
+      4,
+      3,
+      2,
+      4
+     ],
+     "feedback": "Loved the demo"
+    },
+    {
+     "cohort": "Cohort 1",
+     "scores": [
+      3,
+      4,
+      4,
+      3
+     ],
+     "feedback": "Loved the demo"
+    },
+    {
+     "cohort": "Cohort 6",
+     "scores": [
+      4,
+      3,
+      3,
+      3
+     ],
+     "feedback": "Great pitch, very clear"
+    },
+    {
+     "cohort": "Cohort 4",
+     "scores": [
+      5,
+      4,
+      3,
+      4
+     ],
+     "feedback": "Solid, credible numbers"
+    },
+    {
+     "cohort": "Cohort 1",
+     "scores": [
+      4,
+      5,
+      3,
+      4
+     ],
+     "feedback": "pretty, pretty good"
+    },
+    {
+     "cohort": "Cohort 6",
+     "scores": [
+      2,
+      4,
+      3,
+      2
+     ],
+     "feedback": "Solid, credible numbers"
+    },
+    {
+     "cohort": "Cohort 1",
+     "scores": [
+      3,
+      3,
+      3,
+      3
+     ],
+     "feedback": "Solid, credible numbers"
+    },
+    {
+     "cohort": "Cohort 3",
+     "scores": [
+      3,
+      2,
+      2,
+      3
+     ],
+     "feedback": "Ran out of time"
+    },
+    {
+     "cohort": "Cohort 4",
+     "scores": [
+      3,
+      4,
+      3,
+      3
+     ],
+     "feedback": "Loved the demo"
+    },
+    {
+     "cohort": "Cohort 5",
+     "scores": [
+      3,
+      3,
+      4,
+      4
+     ],
+     "feedback": "Needed more data on the market"
+    },
+    {
+     "cohort": "Cohort 5",
+     "scores": [
+      3,
+      3,
+      4,
+      4
+     ],
+     "feedback": "The ask wasn't clear"
+    },
+    {
+     "cohort": "Cohort 2",
+     "scores": [
+      4,
+      4,
+      4,
+      4
+     ],
+     "feedback": "Strong team energy"
+    },
+    {
+     "cohort": "Cohort 1",
+     "scores": [
+      3,
+      3,
+      4,
+      3
+     ],
+     "feedback": ""
+    },
+    {
+     "cohort": "Cohort 3",
+     "scores": [
+      4,
+      3,
+      3,
+      4
+     ],
+     "feedback": "Needed more data on the market"
+    },
+    {
+     "cohort": "Cohort 5",
+     "scores": [
+      4,
+      4,
+      3,
+      3
+     ],
+     "feedback": "Strong team energy"
+    },
+    {
+     "cohort": "Cohort 4",
+     "scores": [
+      3,
+      3,
+      4,
+      4
+     ],
+     "feedback": "Strong team energy"
+    },
+    {
+     "cohort": "Cohort 2",
+     "scores": [
+      4,
+      2,
+      4,
+      3
+     ],
+     "feedback": "Loved the demo"
+    },
+    {
+     "cohort": "Cohort 1",
+     "scores": [
+      4,
+      3,
+      3,
+      3
+     ],
+     "feedback": "Solid, credible numbers"
+    },
+    {
+     "cohort": "Cohort 1",
+     "scores": [
+      4,
+      4,
+      3,
+      4
+     ],
+     "feedback": ""
+    },
+    {
+     "cohort": "Cohort 4",
+     "scores": [
+      4,
+      5,
+      4,
+      5
+     ],
+     "feedback": "Solid, credible numbers"
+    },
+    {
+     "cohort": "Cohort 6",
+     "scores": [
+      4,
+      4,
+      4,
+      4
+     ],
+     "feedback": "Loved the demo"
+    },
+    {
+     "cohort": "Cohort 1",
+     "scores": [
+      3,
+      3,
+      3,
+      3
+     ],
+     "feedback": "Solid, credible numbers"
+    },
+    {
+     "cohort": "Cohort 6",
+     "scores": [
+      3,
+      2,
+      2,
+      2
+     ],
+     "feedback": "Pricing was confusing"
+    },
+    {
+     "cohort": "Cohort 2",
+     "scores": [
+      2,
+      4,
+      3,
+      2
+     ],
+     "feedback": "Ran out of time"
+    },
+    {
+     "cohort": "Cohort 6",
+     "scores": [
+      2,
+      2,
+      3,
+      4
+     ],
+     "feedback": "The ask wasn't clear"
+    },
+    {
+     "cohort": "Cohort 5",
+     "scores": [
+      4,
+      3,
+      2,
+      3
+     ],
+     "feedback": ""
+    },
+    {
+     "cohort": "Cohort 2",
+     "scores": [
+      4,
+      2,
+      null,
+      3
+     ],
+     "feedback": "Great pitch, very clear"
+    },
+    {
+     "cohort": "Cohort 3",
+     "scores": [
+      4,
+      2,
+      null,
+      4
+     ],
+     "feedback": "Needed more data on the market"
+    },
+    {
+     "cohort": "Cohort 2",
+     "scores": [
+      4,
+      2,
+      2,
+      2
+     ],
+     "feedback": "Loved the demo"
+    },
+    {
+     "cohort": "Cohort 4",
+     "scores": [
+      4,
+      4,
+      3,
+      4
+     ],
+     "feedback": "Needed more data on the market"
+    },
+    {
+     "cohort": "Cohort 3",
+     "scores": [
+      3,
+      4,
+      4,
+      4
+     ],
+     "feedback": ""
+    },
+    {
+     "cohort": "Cohort 6",
+     "scores": [
+      2,
+      3,
+      4,
+      3
+     ],
+     "feedback": "The ask wasn't clear"
+    },
+    {
+     "cohort": "Cohort 3",
+     "scores": [
+      4,
+      3,
+      2,
+      4
+     ],
+     "feedback": "pretty, pretty good"
+    },
+    {
+     "cohort": "Cohort 6",
+     "scores": [
+      4,
+      4,
+      2,
+      3
+     ],
+     "feedback": "Solid, credible numbers"
+    },
+    {
+     "cohort": "Cohort 6",
+     "scores": [
+      3,
+      2,
+      3,
+      3
+     ],
+     "feedback": "Loved the demo"
+    },
+    {
+     "cohort": "Cohort 2",
+     "scores": [
+      3,
+      4,
+      3,
+      3
+     ],
+     "feedback": "Strong team energy"
+    },
+    {
+     "cohort": "Cohort 4",
+     "scores": [
+      5,
+      3,
+      4,
+      4
+     ],
+     "feedback": "Great pitch, very clear"
+    },
+    {
+     "cohort": "Cohort 5",
+     "scores": [
+      2,
+      4,
+      4,
+      4
+     ],
+     "feedback": "Solid, credible numbers"
+    },
+    {
+     "cohort": "Cohort 3",
+     "scores": [
+      3,
+      4,
+      2,
+      2
+     ],
+     "feedback": "Solid, credible numbers"
+    },
+    {
+     "cohort": "Cohort 2",
+     "scores": [
+      4,
+      3,
+      4,
+      4
+     ],
+     "feedback": "Solid, credible numbers"
+    },
+    {
+     "cohort": "Cohort 2",
+     "scores": [
+      3,
+      4,
+      4,
+      3
+     ],
+     "feedback": "Strong team energy"
+    },
+    {
+     "cohort": "Cohort 6",
+     "scores": [
+      4,
+      2,
+      4,
+      3
+     ],
+     "feedback": "The ask wasn't clear"
+    },
+    {
+     "cohort": "Cohort 4",
+     "scores": [
+      4,
+      5,
+      5,
+      4
+     ],
+     "feedback": "Solid, credible numbers"
+    },
+    {
+     "cohort": "Cohort 1",
+     "scores": [
+      4,
+      5,
+      4,
+      4
+     ],
+     "feedback": "Strong team energy"
+    },
+    {
+     "cohort": "Cohort 4",
+     "scores": [
+      3,
+      5,
+      3,
+      4
+     ],
+     "feedback": "Great pitch, very clear"
+    }
+   ]
+  }
+ ]
+}
