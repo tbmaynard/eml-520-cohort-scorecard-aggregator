@@ -15,9 +15,22 @@ export interface DashboardOptions {
   initialView?: string;
   /** Shown above the tabs, for sample data or the builder preview. */
   banner?: string;
+  /** Bar and number animations. Off in the builder preview, which redraws as you type. */
+  animate?: boolean;
 }
 
 type SortMode = 'mixed' | 'high' | 'low';
+
+function brandHtml(s?: SeasonFile): string {
+  let status = '';
+  if (s) {
+    const played = s.weeks.length ? Math.max(...s.weeks.map((w) => w.week)) : 0;
+    status = s.ended
+      ? `<span class="brand-status final">Final</span>`
+      : played ? `<span class="brand-status"><i></i>Week ${played} of ${Math.max(s.totalWeeks, played)}</span>` : '';
+  }
+  return `<div class="brand"><span class="brand-mark">USD</span><span class="brand-name">EML 520 <b>Cohort Challenge</b></span>${status}</div>`;
+}
 
 export function mountDashboard(root: HTMLElement, opts: DashboardOptions) {
   let seasons = opts.seasons;
@@ -26,6 +39,7 @@ export function mountDashboard(root: HTMLElement, opts: DashboardOptions) {
   let sort: SortMode = 'mixed';
   let openCohort: string | null = null;
   let returnFocus: HTMLElement | null = null;
+  root.classList.toggle('no-anim', opts.animate === false);
 
   const season = () => seasons.find((s) => s.sectionId === sectionId) ?? seasons[0];
   const weeks = () => [...season().weeks].sort((a, b) => a.week - b.week);
@@ -54,7 +68,7 @@ export function mountDashboard(root: HTMLElement, opts: DashboardOptions) {
 
   function render() {
     if (!seasons.length) {
-      root.innerHTML = `<div class="brand"><span class="brand-mark">USD</span><span class="brand-name">EML 520 Cohort Challenge</span></div><div class="card empty-state"><h2>No results yet</h2><p>Results will appear here after the first challenge.</p></div>`;
+      root.innerHTML = `${brandHtml()}<div class="card empty-state"><h2>No results yet</h2><p>Results will appear here after the first challenge.</p></div>`;
       return;
     }
     if (!validView(view)) view = latestView();
@@ -62,7 +76,9 @@ export function mountDashboard(root: HTMLElement, opts: DashboardOptions) {
     const s = season();
     const played = weeks();
     const total = Math.max(s.totalWeeks, played.length ? played[played.length - 1].week : 0);
-    const heading = view === 'leaderboard' ? (s.ended ? 'Final standings' : 'Season leaderboard') : `Week ${currentWeek()!.week} results`;
+    const heading = view === 'leaderboard'
+      ? (s.ended ? 'Final <span>standings</span>' : 'Season <span>standings</span>')
+      : `Week ${currentWeek()!.week} <span>results</span>`;
 
     let tabs = '';
     if (!s.ended) {
@@ -79,16 +95,16 @@ export function mountDashboard(root: HTMLElement, opts: DashboardOptions) {
 
     const showSection = seasons.length > 1 || s.sectionName !== 'Section 1';
     root.innerHTML = `
-      <div class="brand"><span class="brand-mark">USD</span><span class="brand-name">EML 520 Cohort Challenge</span></div>
+      ${brandHtml(s)}
       <header class="top">
-        <div>${showSection ? `<div class="eyebrow">${esc(s.sectionName)}</div>` : ''}<h1>${esc(heading)}</h1></div>
+        <div>${showSection ? `<div class="eyebrow">${esc(s.sectionName)}</div>` : ''}<h1>${heading}</h1></div>
         ${picker}
       </header>
       ${opts.banner ? `<div class="banner">${esc(opts.banner)}</div>` : ''}
       ${s.ended ? `<div class="banner info">This season is over. Weekly reviews and comments have been removed; the final standings remain.</div>` : ''}
       <div class="tabs" role="tablist">${tabs}</div>
       <div class="view">${view === 'leaderboard' ? leaderboardHtml(s) : weekHtml(s, currentWeek()!)}</div>`;
-    countUp(root);
+    if (opts.animate !== false) countUp(root);
   }
 
   root.addEventListener('click', (e) => {
@@ -180,8 +196,8 @@ function weekHtml(s: SeasonFile, wk: Week): string {
     const bestCrit = s.criteria.filter((_, k) => w.criteria[k] !== null && stats.every((o) => (o.criteria[k] ?? -1) <= (w.criteria[k] as number) + 1e-9));
     const names = winners.map((x) => esc(x.cohort)).join(' &amp; ');
     winnerCard = `<div class="card winner">
-      <div class="eyebrow">${winners.length > 1 ? 'Shared win' : 'Winner'} · ${title}</div>
-      <div class="winner-row"><div class="medal" aria-hidden="true">1</div><div class="winner-name">${names}</div></div>
+      <div class="eyebrow">${winners.length > 1 ? 'Co-champions' : 'Champion'} · ${title}</div>
+      <div class="winner-row"><div class="medal" aria-hidden="true"><b>1</b><small>st</small></div><div class="winner-name">${names}</div></div>
       <div class="winner-score"><span class="stat" data-count="${fmt1(w.score)}">${fmt1(w.score)}</span><span>average out of ${max}${winners.length === 1 ? ` from ${w.reviewCount} reviews` : ''}</span></div>
       <div class="winner-notes">
         ${runner ? `<span class="chip">Ahead of ${esc(runner.cohort)} by <b>${fmt1(w.score - runner.score)}</b></span>` : ''}
@@ -192,12 +208,13 @@ function weekHtml(s: SeasonFile, wk: Week): string {
     </div>`;
   }
 
-  const rows = stats.map((o) => o.presented
-    ? `<button type="button" class="rank-row${o.win ? ' first' : ''}" data-open="${esc(o.cohort)}" aria-label="${esc(o.cohort)}, place ${o.rank}, ${fmt1(o.score)} out of ${max}. Open reviews.">
+  const place = (rank: number) => (rank <= 3 ? ` p${rank}` : '');
+  const rows = stats.map((o, i) => o.presented
+    ? `<button type="button" class="rank-row${o.win ? ' first' : ''}${place(o.rank)}" style="--i:${i}" data-open="${esc(o.cohort)}" aria-label="${esc(o.cohort)}, place ${o.rank}, ${fmt1(o.score)} out of ${max}. Open reviews.">
         <span class="rank-n">${o.rank}</span><span class="rank-name">${esc(o.cohort)}</span>
         <span class="track"><span class="fill" style="width:${(o.score / max) * 100}%"></span><span class="spread" style="left:${(o.min / max) * 100}%;width:${((o.max - o.min) / max) * 100}%"></span></span>
         <span class="rank-val">${fmt1(o.score)}<small>${o.reviewCount} review${o.reviewCount === 1 ? '' : 's'}</small></span></button>`
-    : `<div class="rank-row absent"><span class="rank-n">${o.rank}</span><span class="rank-name">${esc(o.cohort)}</span>
+    : `<div class="rank-row absent" style="--i:${i}"><span class="rank-n">${o.rank}</span><span class="rank-name">${esc(o.cohort)}</span>
         <span class="track"><span class="note">Did not present</span></span><span class="rank-val">0.0<small>no reviews</small></span></div>`).join('');
 
   const colMax = s.criteria.map((_, k) => Math.max(...presented.map((o) => o.criteria[k] ?? -1)));
@@ -225,7 +242,7 @@ function weekHtml(s: SeasonFile, wk: Week): string {
 function podium(stats: CohortWeekStats[]): string {
   const next = stats.filter((x) => x.presented && !x.win).slice(0, 2);
   if (!next.length) return '';
-  return `<div class="podium">${next.map((x) => `<button type="button" class="pod" data-open="${esc(x.cohort)}"><span class="pod-n">${x.rank}</span><span>${esc(x.cohort)}</span><b>${fmt1(x.score)}</b></button>`).join('')}</div>`;
+  return `<div class="podium">${next.map((x) => `<button type="button" class="pod p${x.rank}" data-open="${esc(x.cohort)}"><span class="pod-n">${x.rank}</span><span>${esc(x.cohort)}</span><b>${fmt1(x.score)}</b></button>`).join('')}</div>`;
 }
 
 // ---------- Leaderboard ----------
@@ -243,7 +260,7 @@ function leaderboardHtml(s: SeasonFile): string {
     return `<span><i class="${has ? '' : 'empty'}" style="${has ? `background:${weekColor(i)}` : ''}"></i>Week ${i + 1}</span>`;
   }).join('');
 
-  const lines = rows.map((r) => {
+  const lines = rows.map((r, i) => {
     const mv = r.movement;
     const mvHtml = mv === null ? '<span class="move same" aria-label="first week">·</span>'
       : mv > 0 ? `<span class="move up" aria-label="up ${mv}">▲${mv}</span>`
@@ -251,7 +268,7 @@ function leaderboardHtml(s: SeasonFile): string {
       : '<span class="move same" aria-label="no change">–</span>';
     const missed = r.weekly.filter((w) => !w.presented).map((w) => w.week);
     const segs = r.weekly.map((w) => `<div style="width:${(w.score / full) * 100}%;background:${weekColor(w.week - 1)}" title="Week ${w.week}: ${w.presented ? fmt1(w.score) : 'did not present'}"></div>`).join('');
-    return `<div class="card lb-row${r.rank === 1 ? ' lead' : ''}">
+    return `<div class="card lb-row${r.rank === 1 ? ' lead' : ''}${r.rank <= 3 ? ` p${r.rank}` : ''}" style="--i:${i}">
       <span class="lb-rank">${r.rank}</span>${mvHtml}<span class="rank-name">${esc(r.cohort)}</span>
       <div style="min-width:0"><div class="stack" role="img" aria-label="${r.weekly.map((w) => `Week ${w.week} ${w.presented ? fmt1(w.score) : 'did not present'}`).join(', ')}">${segs}</div>
         ${missed.length ? `<div class="dnp">Did not present: week ${missed.join(', ')}</div>` : ''}</div>

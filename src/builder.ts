@@ -211,7 +211,7 @@ function renderPreview() {
   const host = $('preview');
   if (!s) { host.innerHTML = `<p class="faint">The preview appears once there is a season to show.</p>`; dash = null; return; }
   const banner = 'Preview. Students see this after you upload the file.';
-  if (!dash) { host.innerHTML = ''; dash = mountDashboard(host, { seasons: [s], syncUrl: false, banner }); }
+  if (!dash) { host.innerHTML = ''; dash = mountDashboard(host, { seasons: [s], syncUrl: false, banner, animate: false }); }
   else dash.update([s], banner);
   if (draft() && state.week !== lastPreviewWeek) { dash.showView(`week-${state.week}`); lastPreviewWeek = state.week; }
 }
