@@ -1,0 +1,9 @@
+node_modules
+dist
+*.local
+.DS_Store
+
+# Raw student scorecards contain reviewer names. They must never be committed.
+*.csv
+*.CSV
+*.tsbuildinfo

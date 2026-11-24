@@ -1,0 +1,67 @@
+.top .btn { text-decoration: none; }
+.steps { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin-top: 24px; align-items: start; }
+.step { padding: 20px; display: grid; gap: 14px; align-content: start; min-width: 0; }
+.step-h { display: grid; grid-template-columns: 30px 1fr; gap: 12px; }
+.step-h h2 { font-size: 1.15rem; }
+.step-h p { color: var(--muted); font-size: .9rem; margin-top: 2px; }
+.step-n { font-family: var(--font-stat); font-size: 1.7rem; font-weight: 700; color: var(--torero); line-height: 1; }
+.row { display: flex; flex-wrap: wrap; gap: 12px; align-items: flex-end; }
+.field { display: grid; gap: 4px; font-size: .8rem; color: var(--faint); }
+.field.grow { flex: 1; min-width: 180px; }
+.field input[type="number"] { width: 90px; }
+.actions { gap: 8px; }
+label.btn { display: inline-block; }
+.status { font-size: .92rem; display: grid; gap: 8px; }
+.small { font-size: .82rem; }
+.weeks-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; }
+.weeks-list li { display: flex; justify-content: space-between; gap: 10px; padding: 6px 10px; background: var(--bg); border: 1px solid var(--line-soft); border-radius: 6px; font-size: .88rem; }
+.link { background: none; border: 0; color: var(--poppy); cursor: pointer; font-size: .82rem; padding: 0; }
+.bad-text { color: var(--poppy); }
+
+.dropzone { position: relative; border: 1.5px dashed var(--line); border-radius: var(--r); padding: 26px 18px; text-align: center; cursor: pointer; display: block; transition: border-color .2s, background .2s; }
+.dropzone:hover, .dropzone.over { border-color: var(--torero); background: rgba(117,190,233,.05); }
+.dropzone b { display: block; font-size: 1.05rem; }
+.dropzone span { color: var(--faint); font-size: .85rem; }
+.dropzone input { position: absolute; width: 1px; height: 1px; opacity: 0; pointer-events: none; }
+.dropzone:focus-within { outline: 2px solid var(--torero); outline-offset: 2px; }
+
+.checks { display: grid; gap: 6px; font-size: .88rem; }
+.checks > div { display: grid; grid-template-columns: 18px 1fr; gap: 8px; color: var(--muted); }
+.checks .ok span:first-child { color: var(--sage); }
+.checks .warn span:first-child { color: var(--yarrow); font-weight: 700; }
+.checks .bad span:first-child, .checks .bad { color: var(--poppy); }
+.counts { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+
+#commentsStep { grid-column: 1 / -1; }
+#comments { display: grid; gap: 14px; max-height: 520px; overflow-y: auto; padding-right: 4px; }
+.cgroup h3 { font-size: .8rem; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin-bottom: 6px; }
+.crow { display: grid; grid-template-columns: 18px minmax(0, 1fr) 28px 56px; gap: 10px; align-items: center; padding: 7px 10px; border-radius: 6px; cursor: pointer; font-size: .9rem; }
+.crow:hover { background: var(--raised); }
+.crow .ctext { font-family: var(--font-prose); overflow-wrap: anywhere; }
+.crow.off .ctext { text-decoration: line-through; color: var(--faint); }
+.crow .hide-l { font-size: .75rem; color: var(--faint); text-align: right; }
+.crow.off .hide-l { color: var(--poppy); }
+.crow span.faint { text-align: right; font-size: .8rem; }
+.crow input { accent-color: var(--poppy); margin: 0; }
+
+.how { margin: 0; padding-left: 20px; color: var(--muted); display: grid; gap: 4px; font-size: .9rem; }
+.how b { color: var(--text); }
+
+.end { margin-top: 16px; }
+.end summary { cursor: pointer; display: grid; gap: 2px; list-style: none; }
+.end summary::-webkit-details-marker { display: none; }
+.end summary h2 { font-size: 1.05rem; }
+.end summary h2::before { content: "\25B8"; color: var(--faint); margin-right: 8px; display: inline-block; transition: transform .15s; }
+.end[open] summary h2::before { transform: rotate(90deg); }
+.end summary span { color: var(--faint); font-size: .88rem; }
+#endBox { display: grid; gap: 12px; margin-top: 12px; }
+.confirm { display: flex; gap: 8px; align-items: center; font-size: .9rem; color: var(--muted); }
+#preview { border-top: 1px solid var(--line-soft); }
+
+@media (max-width: 860px) {
+  .steps { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 560px) {
+  .crow { grid-template-columns: 18px minmax(0, 1fr) 46px; }
+  .crow span.faint { display: none; }
+}
