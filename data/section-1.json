@@ -1427,6 +1427,1413 @@
      "feedback": "Great pitch, very clear"
     }
    ]
+  },
+  {
+   "week": 2,
+   "challenge": "Go-to-market plan",
+   "published": "2026-11-24",
+   "reviews": [
+    {
+     "cohort": "Cohort 6",
+     "scores": [
+      3,
+      4,
+      3,
+      4
+     ],
+     "feedback": "Needed more data on the market"
+    },
+    {
+     "cohort": "Cohort 1",
+     "scores": [
+      3,
+      3,
+      3,
+      2
+     ],
+     "feedback": "The ask wasn't clear"
+    },
+    {
+     "cohort": "Cohort 2",
+     "scores": [
+      4,
+      5,
+      3,
+      5
+     ],
+     "feedback": "Pricing was confusing"
+    },
+    {
+     "cohort": "Cohort 5",
+     "scores": [
+      3,
+      3,
+      5,
+      4
+     ],
+     "feedback": "Loved the demo"
+    },
+    {
+     "cohort": "Cohort 1",
+     "scores": [
+      3,
+      4,
+      3,
+      4
+     ],
+     "feedback": "The ask wasn't clear"
+    },
+    {
+     "cohort": "Cohort 5",
+     "scores": [
+      3,
+      4,
+      3,
+      4
+     ],
+     "feedback": "Strong team energy"
+    },
+    {
+     "cohort": "Cohort 2",
+     "scores": [
+      3,
+      5,
+      4,
+      4
+     ],
+     "feedback": "Pricing was confusing"
+    },
+    {
+     "cohort": "Cohort 2",
+     "scores": [
+      4,
+      3,
+      4,
+      5
+     ],
+     "feedback": "The ask wasn't clear"
+    },
+    {
+     "cohort": "Cohort 4",
+     "scores": [
+      3,
+      2,
+      null,
+      4
+     ],
+     "feedback": "Solid, credible numbers"
+    },
+    {
+     "cohort": "Cohort 5",
+     "scores": [
+      4,
+      4,
+      3,
+      3
+     ],
+     "feedback": "Good customer evidence"
+    },
+    {
+     "cohort": "Cohort 3",
+     "scores": [
+      4,
+      3,
+      3,
+      3
+     ],
+     "feedback": "Ran out of time"
+    },
+    {
+     "cohort": "Cohort 2",
+     "scores": [
+      3,
+      4,
+      5,
+      4
+     ],
+     "feedback": "Best structured deck so far"
+    },
+    {
+     "cohort": "Cohort 1",
+     "scores": [
+      3,
+      2,
+      3,
+      3
+     ],
+     "feedback": "Loved the demo"
+    },
+    {
+     "cohort": "Cohort 3",
+     "scores": [
+      3,
+      4,
+      2,
+      3
+     ],
+     "feedback": "Strong team energy"
+    },
+    {
+     "cohort": "Cohort 2",
+     "scores": [
+      4,
+      3,
+      3,
+      3
+     ],
+     "feedback": "Q&A answers were weak"
+    },
+    {
+     "cohort": "Cohort 5",
+     "scores": [
+      3,
+      3,
+      null,
+      4
+     ],
+     "feedback": "Ran out of time"
+    },
+    {
+     "cohort": "Cohort 3",
+     "scores": [
+      2,
+      4,
+      3,
+      3
+     ],
+     "feedback": "The ask wasn't clear"
+    },
+    {
+     "cohort": "Cohort 6",
+     "scores": [
+      3,
+      3,
+      4,
+      3
+     ],
+     "feedback": "Pricing was confusing"
+    },
+    {
+     "cohort": "Cohort 2",
+     "scores": [
+      4,
+      4,
+      4,
+      5
+     ],
+     "feedback": "The ask wasn't clear"
+    },
+    {
+     "cohort": "Cohort 6",
+     "scores": [
+      2,
+      4,
+      3,
+      3
+     ],
+     "feedback": "Solid, credible numbers"
+    },
+    {
+     "cohort": "Cohort 1",
+     "scores": [
+      2,
+      3,
+      2,
+      3
+     ],
+     "feedback": "Strong team energy"
+    },
+    {
+     "cohort": "Cohort 5",
+     "scores": [
+      4,
+      3,
+      4,
+      4
+     ],
+     "feedback": "Best structured deck so far"
+    },
+    {
+     "cohort": "Cohort 1",
+     "scores": [
+      4,
+      4,
+      3,
+      4
+     ],
+     "feedback": "Needed more data on the market"
+    },
+    {
+     "cohort": "Cohort 6",
+     "scores": [
+      4,
+      3,
+      3,
+      2
+     ],
+     "feedback": "Pricing was confusing"
+    },
+    {
+     "cohort": "Cohort 2",
+     "scores": [
+      3,
+      4,
+      4,
+      3
+     ],
+     "feedback": "The ask wasn't clear"
+    },
+    {
+     "cohort": "Cohort 4",
+     "scores": [
+      4,
+      4,
+      3,
+      3
+     ],
+     "feedback": "Solid, credible numbers"
+    },
+    {
+     "cohort": "Cohort 5",
+     "scores": [
+      4,
+      3,
+      null,
+      4
+     ],
+     "feedback": "Good customer evidence"
+    },
+    {
+     "cohort": "Cohort 6",
+     "scores": [
+      3,
+      3,
+      3,
+      4
+     ],
+     "feedback": "Best structured deck so far"
+    },
+    {
+     "cohort": "Cohort 2",
+     "scores": [
+      4,
+      4,
+      5,
+      4
+     ],
+     "feedback": "Ran out of time"
+    },
+    {
+     "cohort": "Cohort 3",
+     "scores": [
+      3,
+      2,
+      2,
+      2
+     ],
+     "feedback": "Needed more data on the market"
+    },
+    {
+     "cohort": "Cohort 1",
+     "scores": [
+      3,
+      4,
+      null,
+      3
+     ],
+     "feedback": ""
+    },
+    {
+     "cohort": "Cohort 3",
+     "scores": [
+      3,
+      4,
+      2,
+      4
+     ],
+     "feedback": "Needed more data on the market"
+    },
+    {
+     "cohort": "Cohort 4",
+     "scores": [
+      4,
+      4,
+      3,
+      3
+     ],
+     "feedback": "Solid, credible numbers"
+    },
+    {
+     "cohort": "Cohort 5",
+     "scores": [
+      3,
+      3,
+      4,
+      5
+     ],
+     "feedback": "Loved the demo"
+    },
+    {
+     "cohort": "Cohort 1",
+     "scores": [
+      2,
+      4,
+      3,
+      3
+     ],
+     "feedback": "The ask wasn't clear"
+    },
+    {
+     "cohort": "Cohort 6",
+     "scores": [
+      3,
+      3,
+      2,
+      3
+     ],
+     "feedback": "Good customer evidence"
+    },
+    {
+     "cohort": "Cohort 4",
+     "scores": [
+      4,
+      3,
+      3,
+      4
+     ],
+     "feedback": "Solid, credible numbers"
+    },
+    {
+     "cohort": "Cohort 6",
+     "scores": [
+      3,
+      3,
+      2,
+      2
+     ],
+     "feedback": "Strong team energy"
+    },
+    {
+     "cohort": "Cohort 1",
+     "scores": [
+      3,
+      3,
+      4,
+      4
+     ],
+     "feedback": "Strong team energy"
+    },
+    {
+     "cohort": "Cohort 6",
+     "scores": [
+      4,
+      3,
+      3,
+      3
+     ],
+     "feedback": "Solid, credible numbers"
+    },
+    {
+     "cohort": "Cohort 3",
+     "scores": [
+      3,
+      2,
+      4,
+      3
+     ],
+     "feedback": "Good customer evidence"
+    },
+    {
+     "cohort": "Cohort 3",
+     "scores": [
+      4,
+      3,
+      4,
+      4
+     ],
+     "feedback": "Great pitch, very clear"
+    },
+    {
+     "cohort": "Cohort 3",
+     "scores": [
+      3,
+      3,
+      4,
+      2
+     ],
+     "feedback": "Loved the demo"
+    },
+    {
+     "cohort": "Cohort 3",
+     "scores": [
+      3,
+      3,
+      3,
+      3
+     ],
+     "feedback": "Needed more data on the market"
+    },
+    {
+     "cohort": "Cohort 3",
+     "scores": [
+      2,
+      3,
+      2,
+      4
+     ],
+     "feedback": "Q&A answers were weak"
+    },
+    {
+     "cohort": "Cohort 5",
+     "scores": [
+      4,
+      3,
+      3,
+      4
+     ],
+     "feedback": "Pricing was confusing"
+    },
+    {
+     "cohort": "Cohort 4",
+     "scores": [
+      2,
+      2,
+      4,
+      3
+     ],
+     "feedback": "Q&A answers were weak"
+    },
+    {
+     "cohort": "Cohort 2",
+     "scores": [
+      3,
+      5,
+      4,
+      5
+     ],
+     "feedback": "Great pitch, very clear"
+    },
+    {
+     "cohort": "Cohort 6",
+     "scores": [
+      3,
+      3,
+      null,
+      2
+     ],
+     "feedback": "Best structured deck so far"
+    },
+    {
+     "cohort": "Cohort 1",
+     "scores": [
+      3,
+      3,
+      4,
+      4
+     ],
+     "feedback": "Needed more data on the market"
+    },
+    {
+     "cohort": "Cohort 6",
+     "scores": [
+      4,
+      2,
+      3,
+      2
+     ],
+     "feedback": "Ran out of time"
+    },
+    {
+     "cohort": "Cohort 6",
+     "scores": [
+      2,
+      2,
+      3,
+      3
+     ],
+     "feedback": "Strong team energy"
+    },
+    {
+     "cohort": "Cohort 5",
+     "scores": [
+      5,
+      4,
+      4,
+      4
+     ],
+     "feedback": "Solid, credible numbers"
+    },
+    {
+     "cohort": "Cohort 1",
+     "scores": [
+      2,
+      3,
+      3,
+      3
+     ],
+     "feedback": "Loved the demo"
+    },
+    {
+     "cohort": "Cohort 1",
+     "scores": [
+      2,
+      3,
+      4,
+      2
+     ],
+     "feedback": "Strong team energy"
+    },
+    {
+     "cohort": "Cohort 5",
+     "scores": [
+      5,
+      3,
+      null,
+      4
+     ],
+     "feedback": "Good customer evidence"
+    },
+    {
+     "cohort": "Cohort 1",
+     "scores": [
+      2,
+      3,
+      2,
+      4
+     ],
+     "feedback": "Loved the demo"
+    },
+    {
+     "cohort": "Cohort 4",
+     "scores": [
+      4,
+      4,
+      2,
+      3
+     ],
+     "feedback": "Q&A answers were weak"
+    },
+    {
+     "cohort": "Cohort 3",
+     "scores": [
+      2,
+      4,
+      4,
+      2
+     ],
+     "feedback": "Q&A answers were weak"
+    },
+    {
+     "cohort": "Cohort 4",
+     "scores": [
+      3,
+      4,
+      4,
+      2
+     ],
+     "feedback": "Pricing was confusing"
+    },
+    {
+     "cohort": "Cohort 6",
+     "scores": [
+      3,
+      4,
+      3,
+      3
+     ],
+     "feedback": "Ran out of time"
+    },
+    {
+     "cohort": "Cohort 6",
+     "scores": [
+      3,
+      3,
+      3,
+      4
+     ],
+     "feedback": "Pricing was confusing"
+    },
+    {
+     "cohort": "Cohort 3",
+     "scores": [
+      4,
+      4,
+      3,
+      3
+     ],
+     "feedback": "Loved the demo"
+    },
+    {
+     "cohort": "Cohort 5",
+     "scores": [
+      4,
+      3,
+      4,
+      4
+     ],
+     "feedback": "Solid, credible numbers"
+    },
+    {
+     "cohort": "Cohort 5",
+     "scores": [
+      4,
+      3,
+      4,
+      3
+     ],
+     "feedback": "Best structured deck so far"
+    },
+    {
+     "cohort": "Cohort 2",
+     "scores": [
+      5,
+      3,
+      4,
+      5
+     ],
+     "feedback": "Loved the demo"
+    },
+    {
+     "cohort": "Cohort 3",
+     "scores": [
+      4,
+      4,
+      3,
+      4
+     ],
+     "feedback": "Pricing was confusing"
+    },
+    {
+     "cohort": "Cohort 3",
+     "scores": [
+      3,
+      2,
+      4,
+      3
+     ],
+     "feedback": "Q&A answers were weak"
+    },
+    {
+     "cohort": "Cohort 2",
+     "scores": [
+      5,
+      4,
+      4,
+      3
+     ],
+     "feedback": "Needed more data on the market"
+    },
+    {
+     "cohort": "Cohort 1",
+     "scores": [
+      3,
+      4,
+      3,
+      4
+     ],
+     "feedback": "Ran out of time"
+    },
+    {
+     "cohort": "Cohort 4",
+     "scores": [
+      3,
+      3,
+      2,
+      4
+     ],
+     "feedback": "Best structured deck so far"
+    },
+    {
+     "cohort": "Cohort 5",
+     "scores": [
+      4,
+      3,
+      3,
+      5
+     ],
+     "feedback": "Good customer evidence"
+    },
+    {
+     "cohort": "Cohort 6",
+     "scores": [
+      4,
+      4,
+      2,
+      3
+     ],
+     "feedback": "Strong team energy"
+    },
+    {
+     "cohort": "Cohort 4",
+     "scores": [
+      4,
+      3,
+      3,
+      3
+     ],
+     "feedback": "Best structured deck so far"
+    },
+    {
+     "cohort": "Cohort 5",
+     "scores": [
+      4,
+      4,
+      4,
+      4
+     ],
+     "feedback": "The ask wasn't clear"
+    },
+    {
+     "cohort": "Cohort 2",
+     "scores": [
+      4,
+      3,
+      4,
+      4
+     ],
+     "feedback": "The ask wasn't clear"
+    },
+    {
+     "cohort": "Cohort 3",
+     "scores": [
+      4,
+      4,
+      4,
+      2
+     ],
+     "feedback": "Great pitch, very clear"
+    },
+    {
+     "cohort": "Cohort 2",
+     "scores": [
+      5,
+      5,
+      null,
+      3
+     ],
+     "feedback": "Needed more data on the market"
+    },
+    {
+     "cohort": "Cohort 4",
+     "scores": [
+      4,
+      4,
+      3,
+      4
+     ],
+     "feedback": "Q&A answers were weak"
+    },
+    {
+     "cohort": "Cohort 3",
+     "scores": [
+      3,
+      3,
+      3,
+      4
+     ],
+     "feedback": "Strong team energy"
+    },
+    {
+     "cohort": "Cohort 1",
+     "scores": [
+      4,
+      2,
+      4,
+      2
+     ],
+     "feedback": "Solid, credible numbers"
+    },
+    {
+     "cohort": "Cohort 2",
+     "scores": [
+      3,
+      4,
+      5,
+      3
+     ],
+     "feedback": "Great pitch, very clear"
+    },
+    {
+     "cohort": "Cohort 5",
+     "scores": [
+      3,
+      3,
+      5,
+      4
+     ],
+     "feedback": "Ran out of time"
+    },
+    {
+     "cohort": "Cohort 3",
+     "scores": [
+      2,
+      2,
+      3,
+      4
+     ],
+     "feedback": "Good customer evidence"
+    },
+    {
+     "cohort": "Cohort 3",
+     "scores": [
+      4,
+      3,
+      3,
+      3
+     ],
+     "feedback": "Strong team energy"
+    },
+    {
+     "cohort": "Cohort 6",
+     "scores": [
+      4,
+      3,
+      3,
+      2
+     ],
+     "feedback": "Great pitch, very clear"
+    },
+    {
+     "cohort": "Cohort 5",
+     "scores": [
+      3,
+      4,
+      3,
+      4
+     ],
+     "feedback": "Great pitch, very clear"
+    },
+    {
+     "cohort": "Cohort 1",
+     "scores": [
+      3,
+      4,
+      3,
+      4
+     ],
+     "feedback": "Ran out of time"
+    },
+    {
+     "cohort": "Cohort 4",
+     "scores": [
+      3,
+      3,
+      3,
+      3
+     ],
+     "feedback": "Needed more data on the market"
+    },
+    {
+     "cohort": "Cohort 6",
+     "scores": [
+      2,
+      4,
+      4,
+      4
+     ],
+     "feedback": "Ran out of time"
+    },
+    {
+     "cohort": "Cohort 6",
+     "scores": [
+      4,
+      3,
+      3,
+      4
+     ],
+     "feedback": "Best structured deck so far"
+    },
+    {
+     "cohort": "Cohort 2",
+     "scores": [
+      3,
+      3,
+      3,
+      4
+     ],
+     "feedback": "Needed more data on the market"
+    },
+    {
+     "cohort": "Cohort 2",
+     "scores": [
+      4,
+      5,
+      null,
+      3
+     ],
+     "feedback": "Loved the demo"
+    },
+    {
+     "cohort": "Cohort 2",
+     "scores": [
+      4,
+      3,
+      4,
+      4
+     ],
+     "feedback": "Needed more data on the market"
+    },
+    {
+     "cohort": "Cohort 6",
+     "scores": [
+      4,
+      3,
+      2,
+      4
+     ],
+     "feedback": "Pricing was confusing"
+    },
+    {
+     "cohort": "Cohort 3",
+     "scores": [
+      2,
+      2,
+      2,
+      3
+     ],
+     "feedback": "The ask wasn't clear"
+    },
+    {
+     "cohort": "Cohort 1",
+     "scores": [
+      3,
+      4,
+      2,
+      3
+     ],
+     "feedback": "Q&A answers were weak"
+    },
+    {
+     "cohort": "Cohort 1",
+     "scores": [
+      3,
+      3,
+      3,
+      3
+     ],
+     "feedback": "Ran out of time"
+    },
+    {
+     "cohort": "Cohort 4",
+     "scores": [
+      3,
+      3,
+      3,
+      3
+     ],
+     "feedback": "The ask wasn't clear"
+    },
+    {
+     "cohort": "Cohort 5",
+     "scores": [
+      3,
+      4,
+      5,
+      4
+     ],
+     "feedback": "The ask wasn't clear"
+    },
+    {
+     "cohort": "Cohort 4",
+     "scores": [
+      4,
+      4,
+      4,
+      3
+     ],
+     "feedback": "Good customer evidence"
+    },
+    {
+     "cohort": "Cohort 5",
+     "scores": [
+      3,
+      4,
+      3,
+      4
+     ],
+     "feedback": "Needed more data on the market"
+    },
+    {
+     "cohort": "Cohort 1",
+     "scores": [
+      3,
+      2,
+      4,
+      2
+     ],
+     "feedback": "Ran out of time"
+    },
+    {
+     "cohort": "Cohort 5",
+     "scores": [
+      4,
+      3,
+      null,
+      3
+     ],
+     "feedback": "Best structured deck so far"
+    },
+    {
+     "cohort": "Cohort 4",
+     "scores": [
+      4,
+      3,
+      3,
+      3
+     ],
+     "feedback": "Loved the demo"
+    },
+    {
+     "cohort": "Cohort 3",
+     "scores": [
+      4,
+      3,
+      4,
+      3
+     ],
+     "feedback": "Good customer evidence"
+    },
+    {
+     "cohort": "Cohort 4",
+     "scores": [
+      2,
+      4,
+      3,
+      3
+     ],
+     "feedback": "Good customer evidence"
+    },
+    {
+     "cohort": "Cohort 5",
+     "scores": [
+      4,
+      5,
+      3,
+      3
+     ],
+     "feedback": "Needed more data on the market"
+    },
+    {
+     "cohort": "Cohort 3",
+     "scores": [
+      4,
+      3,
+      3,
+      2
+     ],
+     "feedback": "Pricing was confusing"
+    },
+    {
+     "cohort": "Cohort 1",
+     "scores": [
+      3,
+      4,
+      4,
+      4
+     ],
+     "feedback": "Best structured deck so far"
+    },
+    {
+     "cohort": "Cohort 2",
+     "scores": [
+      5,
+      3,
+      null,
+      5
+     ],
+     "feedback": "Needed more data on the market"
+    },
+    {
+     "cohort": "Cohort 5",
+     "scores": [
+      4,
+      4,
+      4,
+      4
+     ],
+     "feedback": "Pricing was confusing"
+    },
+    {
+     "cohort": "Cohort 6",
+     "scores": [
+      3,
+      4,
+      4,
+      2
+     ],
+     "feedback": "Good customer evidence"
+    },
+    {
+     "cohort": "Cohort 4",
+     "scores": [
+      4,
+      3,
+      4,
+      3
+     ],
+     "feedback": "Ran out of time"
+    },
+    {
+     "cohort": "Cohort 3",
+     "scores": [
+      2,
+      2,
+      null,
+      4
+     ],
+     "feedback": "Loved the demo"
+    },
+    {
+     "cohort": "Cohort 2",
+     "scores": [
+      5,
+      3,
+      4,
+      4
+     ],
+     "feedback": "Best structured deck so far"
+    },
+    {
+     "cohort": "Cohort 4",
+     "scores": [
+      3,
+      3,
+      3,
+      4
+     ],
+     "feedback": "Strong team energy"
+    },
+    {
+     "cohort": "Cohort 2",
+     "scores": [
+      4,
+      5,
+      5,
+      3
+     ],
+     "feedback": "Loved the demo"
+    },
+    {
+     "cohort": "Cohort 6",
+     "scores": [
+      4,
+      4,
+      3,
+      2
+     ],
+     "feedback": "Q&A answers were weak"
+    },
+    {
+     "cohort": "Cohort 4",
+     "scores": [
+      4,
+      4,
+      3,
+      3
+     ],
+     "feedback": ""
+    },
+    {
+     "cohort": "Cohort 6",
+     "scores": [
+      3,
+      3,
+      3,
+      2
+     ],
+     "feedback": "Loved the demo"
+    },
+    {
+     "cohort": "Cohort 4",
+     "scores": [
+      3,
+      3,
+      4,
+      3
+     ],
+     "feedback": "Good customer evidence"
+    },
+    {
+     "cohort": "Cohort 4",
+     "scores": [
+      2,
+      4,
+      4,
+      3
+     ],
+     "feedback": "Ran out of time"
+    },
+    {
+     "cohort": "Cohort 5",
+     "scores": [
+      3,
+      3,
+      3,
+      3
+     ],
+     "feedback": "Ran out of time"
+    },
+    {
+     "cohort": "Cohort 1",
+     "scores": [
+      3,
+      2,
+      3,
+      4
+     ],
+     "feedback": "Ran out of time"
+    },
+    {
+     "cohort": "Cohort 1",
+     "scores": [
+      3,
+      3,
+      4,
+      2
+     ],
+     "feedback": "The ask wasn't clear"
+    },
+    {
+     "cohort": "Cohort 6",
+     "scores": [
+      4,
+      3,
+      3,
+      2
+     ],
+     "feedback": "Good customer evidence"
+    },
+    {
+     "cohort": "Cohort 6",
+     "scores": [
+      3,
+      3,
+      null,
+      3
+     ],
+     "feedback": "Best structured deck so far"
+    },
+    {
+     "cohort": "Cohort 2",
+     "scores": [
+      5,
+      3,
+      3,
+      4
+     ],
+     "feedback": "Ran out of time"
+    },
+    {
+     "cohort": "Cohort 5",
+     "scores": [
+      4,
+      4,
+      4,
+      5
+     ],
+     "feedback": "Good customer evidence"
+    },
+    {
+     "cohort": "Cohort 3",
+     "scores": [
+      4,
+      3,
+      2,
+      4
+     ],
+     "feedback": "Strong team energy"
+    },
+    {
+     "cohort": "Cohort 2",
+     "scores": [
+      5,
+      5,
+      3,
+      4
+     ],
+     "feedback": "Ran out of time"
+    },
+    {
+     "cohort": "Cohort 4",
+     "scores": [
+      4,
+      2,
+      4,
+      3
+     ],
+     "feedback": "Loved the demo"
+    },
+    {
+     "cohort": "Cohort 2",
+     "scores": [
+      5,
+      4,
+      4,
+      5
+     ],
+     "feedback": ""
+    },
+    {
+     "cohort": "Cohort 1",
+     "scores": [
+      3,
+      3,
+      3,
+      4
+     ],
+     "feedback": ""
+    },
+    {
+     "cohort": "Cohort 4",
+     "scores": [
+      3,
+      3,
+      3,
+      4
+     ],
+     "feedback": "Good customer evidence"
+    },
+    {
+     "cohort": "Cohort 6",
+     "scores": [
+      4,
+      3,
+      3,
+      3
+     ],
+     "feedback": "The ask wasn't clear"
+    },
+    {
+     "cohort": "Cohort 4",
+     "scores": [
+      4,
+      3,
+      null,
+      4
+     ],
+     "feedback": "Great pitch, very clear"
+    },
+    {
+     "cohort": "Cohort 1",
+     "scores": [
+      3,
+      3,
+      3,
+      4
+     ],
+     "feedback": "Pricing was confusing"
+    },
+    {
+     "cohort": "Cohort 5",
+     "scores": [
+      3,
+      4,
+      4,
+      4
+     ],
+     "feedback": "Good customer evidence"
+    }
+   ]
   }
  ]
 }
